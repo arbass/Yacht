@@ -1,0 +1,52 @@
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 1698px;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.main-header {
+    width: 100%;
+    height: 63px;
+    background-color: #040506;
+}
+
+.main-header-layout {
+    height: 100%;
+}
+
+.logo {
+    width: 136;
+    height: 51.5px;
+    margin-right: 584px;
+    margin-top: 5.5px;
+}
+
+.inner-navigation {
+    margin: 0;
+    padding: 0;
+    width: 548px;
+    height: 100%;
+    
+    list-style: none;
+}
+
+.inner-navigation li {
+    margin: 0;
+    padding: 0;
+    width: 137px;
+    height: 100%;
+}
