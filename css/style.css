@@ -9,6 +9,11 @@ body {
     background-color: #15191D;
 }
 
+.active {
+    
+    background-color: rgba(120, 116, 118, 0.2);
+}
+
 .container {
     width: 1280px;
     margin: 0 auto;
@@ -24,10 +29,12 @@ body {
     width: 100%;
     height: 63px;
     background-color: #040506;
+    margin: 0 auto;
 }
 
 .main-header-layout {
     height: 100%;
+    margin: 0 auto;
 }
 
 .logo {
@@ -61,8 +68,43 @@ body {
 }
 
 .inner-navigation li:hover {
-    background-color: rgba(120, 116, 118, 0.2);;
+    background-color: rgba(120, 116, 118, 0.2);
     cursor: pointer;
+}
+
+/*оформление футера*/
+
+.main-footer {
+    width: 100%;
+    height: 138px;
+    background-color: #040506;
+}
+
+.main-footer-layout {
+    justify-content: space-between;
+    font-size: 19;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #A79258;
+}
+
+.main-footer-layout p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-left {
+    width: 599px;
+    height: 88px;
+    margin-top: 28px;
+    text-align: left;
+}
+
+.footer-right {
+    width: 599px;
+    height: 88px;
+    margin-top: 28px;
+    text-align: right;
 }
 
 /*оформление первого блока*/
