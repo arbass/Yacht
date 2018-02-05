@@ -2,11 +2,11 @@ html,
 body {
     margin: 0 auto;
     padding: 0;
-    height: 1698px;
     background-color: black;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     font-size: 17px;
+    background-color: #15191D;
 }
 
 .container {
@@ -17,6 +17,8 @@ body {
 .flex-container {
     display: flex;
 }
+
+/*оформление хедера*/
 
 .main-header {
     width: 100%;
@@ -49,4 +51,121 @@ body {
     padding: 0;
     width: 137px;
     height: 100%;
+    text-align: center;
+    line-height: 3.5;
+}
+
+.inner-navigation a { 
+    text-decoration: none;
+    color: #A79258;
+}
+
+.inner-navigation li:hover {
+    background-color: rgba(120, 116, 118, 0.2);;
+    cursor: pointer;
+}
+
+/*оформление первого блока*/
+
+.first-block {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 527px;
+    background: url(../res/index-bg.png) no-repeat center top;
+}
+
+.main-title{
+    display: block;
+    width: 553px;
+    height: 186px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 78px;
+    margin-bottom: 213px;
+    font-size: 45px;
+    text-align: center;
+    color: #DCC585;
+    font-weight: 400;
+}
+
+.arrow-down {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 31px;
+    height: 31px;
+}
+
+/*оформление второго блока*/
+
+.services {
+    flex-direction: column;
+    width: 100%;
+    height: 970px;
+    background-color: #15191D;
+}
+
+.services h2 {
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 52.5px;
+    padding: 0;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    color: #A79258;
+}
+
+.services-list {
+    margin: 0 auto;
+    padding: 0;
+    width: 1118.5px;
+    height: 781px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-item {
+    border: 1px solid #A79258;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 550.5px;
+    height: 376px;
+}
+
+.services-list p {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    height: 70px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: rgba(4, 5, 6, 0.7);
+}
+
+.provision {
+    background: url(../res/provision.png) no-repeat;
+    background-size: cover;
+}
+
+.order {
+    background: url(../res/order.png) no-repeat;
+    background-size: cover;
+}
+
+.delivery {
+    background: url(../res/delivery.png) no-repeat;
+    background-size: cover;
+}
+
+.equipment {
+    background: url(../res/equipment.png) no-repeat;
+    background-size: cover;
 }
