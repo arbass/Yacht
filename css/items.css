@@ -138,7 +138,7 @@ body {
     margin-top: 20.6px;
     margin-left: auto;
     width: 980.9px;
-    height: 916.55px;
+    min-height: 916.55px;
 }
 
 /*оформление сайдбара*/
@@ -181,6 +181,9 @@ body {
 .items-grid {
     width: 100%;
     min-height: 295px;
+    
+    align-items: center;
+    flex-wrap: wrap
 }
 
 /*оформление превью карточки товара*/
@@ -191,6 +194,8 @@ body {
     padding: 0;
     width: 314.77px;
     height: 274.51px;
+    margin-right: 11.3px;
+    margin-bottom: 11.3px;
 }
 
 .item h3 {
