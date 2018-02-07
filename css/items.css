@@ -147,10 +147,9 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    margin-bottom: auto;
+    margin-bottom: 26.8px;
     width: 100%;
     height: 228.9px;
-    background-color: red;
     background: url(../res/sidebar-header.png) no-repeat;
     background-size: cover;
 }
@@ -165,6 +164,300 @@ body {
     height: 65.89px;
     background-color: rgba(149, 152, 154, 0.82);
 }
+
+.category-list {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 240px;
+    min-height: 694px;
+}
+
+.category-list ul {
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    width: 240px;
+    height: 694px;
+}
+
+.category-list ul li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 21.7px;
+    list-style: none;
+    width: 244px;
+}
+
+.category-list i {
+    background-image: url(../res/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;  
+}
+
+.category-list a {
+    font-style: normal;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 27px;
+    line-height: 1.7;
+    width: 217px;
+}
+
+.category-list a:hover {
+    color: #4285F4;
+}
+
+.lamp {
+    width: 20px;
+    height: 20px;
+    background-position: -7px -177px;
+}
+
+.lamp:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -41px -177px;
+}
+
+
+.sensor {
+    width: 20px;
+    height: 20px;
+    background-position: -143px -177px;
+}
+
+.sensor:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -177px -177px;
+}
+
+
+.transformers {
+    width: 20px;
+    height: 20px;
+    background-position: -7px -143px;
+}
+
+.transformers:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -41px -143px;
+}
+
+
+.cable {
+    width: 20px;
+    height: 20px;
+    background-position: -7px -41px;
+}
+
+.cable:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -41px -41px;
+}
+
+
+.fixtures {
+    width: 20px;
+    height: 20px;
+    background-position: -7px -75px;
+}
+
+.fixtures:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -41px -75px;
+}
+
+
+.generators {
+    width: 20px;
+    height: 20px;
+    background-position: -143px -143px;
+}
+
+.generators a {
+    line-height: 1.2;
+}
+
+.generators:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -177px -143px;
+}
+
+
+.electrodes {
+    width: 20px;
+    height: 20px;
+    background-position: -75px -41px;
+}
+
+.electrodes:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -109px -41px;
+}
+
+
+.starters {
+    width: 20px;
+    height: 20px;
+    background-position: -7px -109px;
+}
+
+.starters:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -41px -109px;
+}
+
+
+.burners {
+    width: 20px;
+    height: 20px;
+    background-position: -143px -7px;
+}
+
+.burners:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -177px -7px;
+}
+
+
+.bell {
+    width: 20px;
+    height: 20px;
+    background-position: -75px -143px;
+}
+
+.bell:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -109px -143px;
+}
+
+
+.phones {
+    width: 20px;
+    height: 20px;
+    background-position: -143px -75px;
+}
+
+.phones:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -177px -75px;
+}
+
+
+.switch {
+    width: 20px;
+    height: 20px;
+    background-position: -75px -109px;
+}
+
+.switch a {
+    line-height: 1.2;
+}
+
+.switch:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -109px -109px;
+}
+
+
+.boxes-connecting {
+    width: 20px;
+    height: 20px;
+    background-position: -75px -7px;
+}
+
+.boxes-connecting:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -109px -7px;
+}
+
+
+.thermometers {
+    width: 20px;
+    height: 20px;
+    background-position: -143px -109px;
+}
+
+.thermometers:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -177px -109px;
+}
+
+
+.accumulators {
+    width: 20px;
+    height: 20px;
+    background-position: -7px -7px;
+}
+
+.accumulators:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -41px -7px;
+}
+
+
+.fans {
+    width: 20px;
+    height: 20px;
+    background-position: -143px -41px;
+}
+
+.fans:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -177px -41px;
+}
+
+
+.hydromotors {
+    width: 20px;
+    height: 20px;
+    background-position: -75px -75px;
+}
+
+.hydromotors:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -109px -75px;
+}
+
+
+.other {
+    width: 20px;
+    height: 20px;
+    background-position: -75px -177px;
+}
+
+.other:hover {
+    width: 20px;
+    height: 20px;
+    background-position: -109px -177px;
+}
+
+
+
+
 
 /*оформление айтемов*/
 
