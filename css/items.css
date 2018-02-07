@@ -131,6 +131,7 @@ body {
 }
 
 .items-section {
+    flex-direction: column;
     margin: 0;
     padding: 0;
     margin-bottom: 33px;
@@ -163,4 +164,123 @@ body {
     width: 100%;
     height: 65.89px;
     background-color: rgba(149, 152, 154, 0.82);
+}
+
+/*оформление айтемов*/
+
+.items-section h2 {
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 26px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.items-grid {
+    width: 100%;
+    min-height: 295px;
+}
+
+/*оформление превью карточки товара*/
+
+.item {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 314.77px;
+    height: 274.51px;
+}
+
+.item h3 {
+    margin: 0;
+    padding: 0;
+    margin-left: 14.6px;
+}
+
+.item p {
+    margin: 0;
+    padding: 0;
+    margin-left: 14.6px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    margin-left: 14.6px;
+}
+
+.item-meta {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 314.77px;
+    height: 274.51px;
+    z-index: 1;
+}
+
+.item-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 314.77px;
+    height: 274.51px;
+}
+
+.meta-block {
+    width: 100%;
+}
+
+.empty {
+    height: 110px;
+}
+
+.price {
+    height: 37px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    line-height: 2.5;
+}
+
+.item-mirror {
+    flex-direction: column;
+    height: 128px;
+    background-color: rgba(66, 66, 66, 0.67);
+}
+
+.name h3 {
+    height: 40px;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    line-height: 2.5;
+}
+
+.title {
+    height: 44px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+.btn-info {
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 2.3;
 }
