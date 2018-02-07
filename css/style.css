@@ -54,15 +54,17 @@ body {
 }
 
 .inner-navigation li {
-    margin: 0;
-    padding: 0;
-    width: 137px;
-    height: 100%;
+    
     text-align: center;
     line-height: 3.5;
 }
 
-.inner-navigation a { 
+.inner-navigation a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 137px;
+    height: 100%;
     text-decoration: none;
     color: #A79258;
 }
