@@ -7,6 +7,9 @@ body {
     color: #ffffff;
     font-size: 17px;
     background-color: #15191D;
+    background: url(../res/ads-bg.png) no-repeat;
+    background-size: cover; /* Современные браузеры */
+    background-attachment: fixed;
 }
 
 .active {
@@ -109,4 +112,178 @@ body {
     text-align: right;
 }
 
-/*оформление первого блока*/
+/*оформление кнопки*/
+
+.btn {
+    background-color: #51536B;
+    border: 1px solid #DDDCDC;
+    color: #ffffff;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #CFD0D6;
+    border: 1px solid black;
+    color: black;
+}
+
+/*оформление контейнера объявлений*/
+
+.ads-container {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 53px;
+    width: 1146.6px;
+    min-height: 827.87px;
+}
+
+.ads-container h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 45.6px;
+    font-size: 45px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.add-ad-button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45.5px;
+    width: 330px;
+    height: 59px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.9;
+}
+
+/*оформлениесетки объявлений*/
+
+.ads-grid {
+    display: flex;
+    width: 100%;
+    min-height: 188px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*оформление карточки объявления*/
+
+.ad-item {
+    margin: 0;
+    padding: 0;
+    width: 549.58px;
+    height: 187.18px;
+    background-color: #EEEDED;
+    margin-bottom: 15px;
+    margin-right: 11px;
+    margin-left: 11px;
+}
+
+.ad-meta {
+    flex-direction: column;
+    width: 364.32px;
+    height: 100%;
+}
+
+.meta-title {
+    width: 100%;
+    min-height: 33.03px;
+    background-color: #464143;
+}
+
+.meta-title h3 {
+    margin: 0;
+    padding: 0;
+    margin-left: 22px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+.meta-title p {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 49.7px;
+    text-align: right;
+    font-size: 10px;
+    font-weight: 400;
+    color: #CCCBCB;
+    line-height: 3.7;
+}
+
+.meta-content {
+    flex-direction: column;
+}
+
+.meta-content h4 {
+    margin: 0;
+    padding: 0;
+    margin-left: 22px;
+    margin-top: 6px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    color: #19231A;
+    line-height: 1.7;
+}
+
+.meta-content p {
+    margin: 0;
+    padding: 0;
+    margin-left: 22px;
+    margin-top: 2px;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 400;
+    color: #575F58;
+    line-height: 1.3;
+}
+
+.meta-content-action {
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    width: 100%;
+    height: 27px;
+}
+
+.price {
+    margin: 0;
+    padding: 0;
+    margin-left: 22px;
+    margin-top: 2px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #6E7A82;
+    line-height: 1.3;
+}
+
+.more-info-button {
+    margin-left: auto;
+}
+
+.meta-content-action a {
+    font-style: normal;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: 17.4px;
+    line-height: 1.7;
+    text-transform: uppercase;
+}
+
+.meta-content-action a:hover {
+    color: #4285F4;
+}
