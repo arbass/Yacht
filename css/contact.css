@@ -140,4 +140,15 @@ body {
     background: url(../res/line-center.png) no-repeat;
     width: 6px;
     height: 639.75px;
+    margin-right: 67.9px;
+}
+
+.contacts-block {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 403.15px;
+    height: 263.07px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #E2C880;
 }
