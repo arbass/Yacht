@@ -1,79 +1,52 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>ТСФ - Яхтенное оборудование</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700&amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+  <title>ТСФ - Главная</title>    
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header class="main-header">
-        <div class="main-header-layout container flex-container">
-            <nav class="main-navigation flex-container">
-                <img class="logo" src="res/logo.png" width="136" height="51.5" alt="ТСФ">
-                <ul class="flex-container inner-navigation">
-                    <li class="main active"><a>Главная</a></li>
-                    <li class="items"><a href="items.html">Ассортимент</a></li>
-                    <li class="ads"><a href="ads.html">Объявления</a></li>
-                    <li class="contacts"><a href="contacts.html">Контакты</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    
-    <div class="first-block">
-        <h1 class="main-title">Судовое оборудование
-        в Санкт - Петербурге<br>
-        ООО "ТСФ"</h1>
-        <a href="#"><img class="arrow-down" src="res/arrow-down.png" width="31" height="31"></a>
-    </div>
-    
-    
-    
-    <main class="container">
-        
-        
-        
-        <div class="services flex-container">
-            <h2>Наши услуги</h2>
-            <div class="services-list flex-container">
-                <div class="services-item flex-container provision">
-                    <p class="provision-description">Снабжение судов в портах Санкт-Петербурга и Ленинградской области</p>
-                </div>
-                <div class="services-item flex-container order">
-                    <p class="order-description">Выполнение заказов на поставку любых запчастей и материалов для судоремонта</p>
-                </div>
-                <div class="services-item flex-container delivery">
-                    <p class="delivery-description">Доставка оборудования и запасных частей в любой регион России и зарубежья</p>
-                </div>
-                <div class="services-item flex-container equipment">
-                    <p class="equipment-description">Комплектация и отгрузка оборудования и запасных частей со склада в г.Санкт-Петербург</p>
-                </div>
-            </div>
-        </div>
-        
-    </main>
-    
-    
-    <footer class="main-footer">
-        <div class="main-footer-layout container flex-container">
-            <div class="footer-left">
-                <p class="footer-address">
-                   ООО "ТСФ", Санкт-Петербург,<br>Адрес склада: улица Дегтярева 2 а 
-                </p>
-            </div>
-            <div class="footer-right">
-                <p class="footer-contacts">
-                    тел: (812) 227-15-90, 290-67-77, 950-32-81<br>Тел/Факс:(812)227-15-90<br>E-mail: litert@bk.ru
-                </p>
-            </div>
-        </div>
-    </footer>
-    
-    <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<!--        <script src="script/script.js"></script>-->
-    
+<body class="page">
+  <header class="page-header">
+      <nav class="page-header__logo">
+        <h1 class="visually-hidden">ТСФ - Судовое оборудование в Санкт - Петербурге ООО "ТСФ"</h1>
+        <h2>ТСФ</h2>
+        <img src="#" alt="ТСФ">
+      </nav>
+      <nav class="page-header__menu">
+        <p class="visually-hidden">
+            Меню сайта
+        </p>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Ассортимент</a></li>
+          <li><a href="#">Объявления</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main class="page-content">
+      <section class="page-content__first-block">
+        <h2>ТСФ - Судовое оборудование в Санкт - Петербурге ООО "ТСФ"</h2>
+      </section>
+      <section class="page-content__second-block">
+        <h2>Наши услуги</h2>
+          <ul>
+              <li>Снабжение судов в портах Санкт-Петербурга и Ленинградской области</li>
+              <li>Выполнение заказов на поставку любых запчастей и материалов для судоремонта</li>
+              <li>Доставка оборудования и запасных частей в любой регион России и зарубежья</li>
+              <li>Комплектация и отгрузка оборудования и запасных частей со склада в г.Санкт-Петербург</li>
+          </ul>
+      </section>
+  </main>
+  <footer class="page-footer">
+    <h3 class="visually-hidden">
+        Наши контакты
+    </h3>
+    <p class="page-footer__left-column">
+          ООО "ТСФ", Санкт-Петербург, Адрес склада: улица Дегтярева 2 а
+    </p>
+    <p class="page-footer__right-column">
+          тел: (812) 227-15-90, 290-67-77, 950-32-81 Тел/Факс:(812)227-15-90 E-mail: litert@bk.ru
+    </p>
+  </footer>
 </body>
 </html>
