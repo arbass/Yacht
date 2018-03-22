@@ -1,1 +1,15 @@
 @import "variables.scss";
+
+@import "blocks/page/page.scss";
+
+@import "blocks/page/page-content/page-content.scss";
+@import "blocks/page/page-content/__first-block/page-content__first-block.scss";
+@import "blocks/page/page-content/__second-block/page-content__second-block.scss";
+
+@import "blocks/page/page-footer/page-footer.scss";
+@import "blocks/page/page-footer/__left-column/page-footer__left-column.scss";
+@import "blocks/page/page-footer/__right-column/page-footer__right-column.scss";
+
+@import "blocks/page/page-header/page-header.scss";
+@import "blocks/page/page-header/__logo/page-header__logo.scss";
+@import "blocks/page/page-header/__menu/page-header__menu.scss";
