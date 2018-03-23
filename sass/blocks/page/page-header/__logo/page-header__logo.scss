@@ -1,0 +1,35 @@
+.page-header__logo {
+    position: relative;
+    width: 65.66px;
+    height: 20.7px;
+    margin-top: 6.5px;
+    
+    margin-left: auto;
+}
+
+.page-header__logo h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: $gold;
+    line-height: .1;
+    float: left;
+}
+
+.page-header__logo h2::after{
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 36px;
+    
+    width: 1px;
+    height: 20.5px;
+    
+    background: url(../img/logo-line.png) no-repeat;
+}
+
+.page-header__logo img {
+    float: right;
+    width: 21px;
+    height: 21px;
+}
