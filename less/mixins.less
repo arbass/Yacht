@@ -22,3 +22,31 @@
     cursor: pointer;
   }
 }
+
+.hide () {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.show () {
+  position: relative;
+  clip: none;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.list-unstyled () {
+  li {
+    list-style: none;
+  }
+}
+
+.href-instyled () {
+  a {
+    text-decoration: none;
+  }
+}
