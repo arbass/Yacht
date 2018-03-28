@@ -2,7 +2,7 @@
     position: relative;
     width: 65.66px;
     height: 20.7px;
-    margin-top: 6.5px;
+    margin-top: 8.1px;
     
     margin-left: auto;
 }
@@ -10,9 +10,9 @@
 .page-header__logo h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: $gold;
-    line-height: .1;
+    line-height: 0;
     float: left;
 }
 
@@ -20,7 +20,7 @@
     content: "";
     position: absolute;
     top: 1px;
-    left: 36px;
+    left: 38px;
     
     width: 1px;
     height: 20.5px;
@@ -30,6 +30,7 @@
 
 .page-header__logo img {
     float: right;
-    width: 21px;
-    height: 21px;
+    width: 22.1px;
+    height: 22.1px;
+    margin-top: 1px;
 }
