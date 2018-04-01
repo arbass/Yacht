@@ -10,6 +10,11 @@
   z-index: 101;
 
   transition: 1s;
+
+  &--goods {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
 }
 
 .left-menu--hide {
@@ -26,12 +31,14 @@
 .left-menu__body {
   .list-unstyled ();
   .href-instyled ();
+  position: relative;
 }
 
 .left-menu__body a {
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
+  max-width: 200px;
 }
 
 .left-menu__body ul {
@@ -42,7 +49,6 @@
 
 .left-menu__body li {
   margin: 0;
-  padding: 0;
   margin-bottom: 29px;
   .flex ();
 }
@@ -79,7 +85,7 @@
 .left-menu__button-main-page i {
   display: block;
 
-  width: 20px;
+  min-width: 20px;
   height: 20px;
 
   background: url("../img/main-page.png") no-repeat;
@@ -89,7 +95,7 @@
 .left-menu__button-goods i {
   display: block;
 
-  width: 20px;
+  min-width: 20px;
   height: 20px;
 
   background: url("../img/goods.png") no-repeat;
@@ -99,7 +105,7 @@
 .left-menu__button-ads i {
   display: block;
 
-  width: 20px;
+  min-width: 20px;
   height: 20px;
 
   background: url("../img/ad.png") no-repeat;
@@ -109,9 +115,212 @@
 .left-menu__button-contacts i {
   display: block;
 
-  width: 20px;
+  min-width: 20px;
   height: 20px;
 
   background: url("../img/contacts.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-contacts {
+  width: inherit;
+  &--bottom-border {
+
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 247;
+      left: 3px;
+
+      width: 268px;
+      height: 1px;
+      background-color: @bg-lightgrey;
+      // background: url("../img/viertical-line.png") no-repeat;
+    }
+  }
+}
+
+.left-menu__button-lamp {
+  padding-top: 20px;
+}
+
+.left-menu__button-lamp i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/lamp.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-sensor i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/sensor.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-transformtator i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/transformers.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-cable i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/cable.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-light i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/lightters.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-engine i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/generators.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-electrods i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/Electrodes.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-starters i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/starters.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-hot i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/hot.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-bell i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/bell.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-phone i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/phones.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-tumbler i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/switch.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-boxes i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/box.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-termometres i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/Thermometers.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-charge i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/Accumulators.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-fan i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/fans.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-hydroengine i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/Hydroengine.png") no-repeat;
+  background-size: contain;
+}
+
+.left-menu__button-other i {
+  display: block;
+
+  min-width: 20px;
+  height: 20px;
+
+  background: url("../img/other.png") no-repeat;
   background-size: contain;
 }
