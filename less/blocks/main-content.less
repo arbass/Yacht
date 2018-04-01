@@ -1,0 +1,36 @@
+.main-content {
+  .container ();
+  .flex ();
+}
+
+.main-content__category-name {
+  margin: 0;
+  margin-top: 67px;
+  margin-bottom: 19px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+
+.main-content__block-items {
+  .flex ();
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 269px;
+  min-height: 800px;
+  background-color: red;
+}
+
+
+@media @desktop-widths {
+  .main-content__category-name {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .main-content__block-items {
+    width: 628px;
+  }
+}

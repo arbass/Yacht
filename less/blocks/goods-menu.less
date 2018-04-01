@@ -1,70 +1,52 @@
-.left-menu {
+.goods-menu {
   .flex-c ();
-  .show ();
-  position: absolute;
-  left: 0;
-  top: 0;
   width: 273.3px;
-  height: 100vh;
+  min-height: 500px;
+  margin-top: 44px;
   background-color: @bg-body-left-menu;
-  z-index: 101;
+  z-index: 1;
 
-  transition: 1s;
-
-  &--goods {
-    overflow: scroll;
-    overflow-x: hidden;
-  }
 }
 
-.left-menu--hide {
-  left: -273.3px;
-}
-
-.left-menu__header {
+.goods-menu__header {
   position: relative;
   width: 273.3px;
   min-height: 198.24px;
-  background: url("../img/left-menu-header.png") no-repeat;
+  background: url("../img/goods-left-menu-bg.png") no-repeat;
   background-size: cover;
-
-  &--goods {
-    background: url("../img/goods-left-menu-bg.png") no-repeat;
-    background-size: cover;
-  }
 }
 
-.left-menu__body {
+.goods-menu__body {
   .list-unstyled ();
   .href-instyled ();
   position: relative;
 }
 
-.left-menu__body a {
+.goods-menu__body a {
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
   max-width: 200px;
 }
 
-.left-menu__body ul {
+.goods-menu__body ul {
   margin: 0;
   padding: 0;
   margin-top: 34px;
 }
 
-.left-menu__body li {
+.goods-menu__body li {
   margin: 0;
   margin-bottom: 29px;
   .flex ();
 }
 
-.left-menu__body li i {
+.goods-menu__body li i {
   margin-left: 13.9px;
   margin-right: 26.6px;
 }
 
-.left-menu__header h2 {
+.goods-menu__header h2 {
   display: block;
   margin: 0 auto;
   margin-top: 79.9px;
@@ -75,7 +57,7 @@
   text-align: center;
 }
 
-.left-menu__button-close {
+.goods-menu__button-close {
   position: absolute;
 
   top: 15.9px;
@@ -88,7 +70,7 @@
   .hover ();
 }
 
-.left-menu__button-main-page i {
+.goods-menu__button-main-page i {
   display: block;
 
   min-width: 20px;
@@ -98,7 +80,7 @@
   background-size: contain;
 }
 
-.left-menu__button-goods i {
+.goods-menu__button-goods i {
   display: block;
 
   min-width: 20px;
@@ -108,7 +90,7 @@
   background-size: contain;
 }
 
-.left-menu__button-ads i {
+.goods-menu__button-ads i {
   display: block;
 
   min-width: 20px;
@@ -118,7 +100,7 @@
   background-size: contain;
 }
 
-.left-menu__button-contacts i {
+.goods-menu__button-contacts i {
   display: block;
 
   min-width: 20px;
@@ -128,7 +110,7 @@
   background-size: contain;
 }
 
-.left-menu__button-contacts {
+.goods-menu__button-contacts {
   width: inherit;
   &--bottom-border {
 
@@ -137,7 +119,7 @@
       content: "";
       position: absolute;
       top: 247;
-      left: 3px;
+      goods: 3px;
 
       width: 268px;
       height: 1px;
@@ -147,11 +129,11 @@
   }
 }
 
-.left-menu__button-lamp {
+.goods-menu__button-lamp {
   padding-top: 20px;
 }
 
-.left-menu__button-lamp i {
+.goods-menu__button-lamp i {
   display: block;
 
   min-width: 20px;
@@ -161,7 +143,7 @@
   background-size: contain;
 }
 
-.left-menu__button-sensor i {
+.goods-menu__button-sensor i {
   display: block;
 
   min-width: 20px;
@@ -171,7 +153,7 @@
   background-size: contain;
 }
 
-.left-menu__button-transformtator i {
+.goods-menu__button-transformtator i {
   display: block;
 
   min-width: 20px;
@@ -181,7 +163,7 @@
   background-size: contain;
 }
 
-.left-menu__button-cable i {
+.goods-menu__button-cable i {
   display: block;
 
   min-width: 20px;
@@ -191,7 +173,7 @@
   background-size: contain;
 }
 
-.left-menu__button-light i {
+.goods-menu__button-light i {
   display: block;
 
   min-width: 20px;
@@ -201,7 +183,7 @@
   background-size: contain;
 }
 
-.left-menu__button-engine i {
+.goods-menu__button-engine i {
   display: block;
 
   min-width: 20px;
@@ -211,7 +193,7 @@
   background-size: contain;
 }
 
-.left-menu__button-electrods i {
+.goods-menu__button-electrods i {
   display: block;
 
   min-width: 20px;
@@ -221,7 +203,7 @@
   background-size: contain;
 }
 
-.left-menu__button-starters i {
+.goods-menu__button-starters i {
   display: block;
 
   min-width: 20px;
@@ -231,7 +213,7 @@
   background-size: contain;
 }
 
-.left-menu__button-hot i {
+.goods-menu__button-hot i {
   display: block;
 
   min-width: 20px;
@@ -241,7 +223,7 @@
   background-size: contain;
 }
 
-.left-menu__button-bell i {
+.goods-menu__button-bell i {
   display: block;
 
   min-width: 20px;
@@ -251,7 +233,7 @@
   background-size: contain;
 }
 
-.left-menu__button-phone i {
+.goods-menu__button-phone i {
   display: block;
 
   min-width: 20px;
@@ -261,7 +243,7 @@
   background-size: contain;
 }
 
-.left-menu__button-tumbler i {
+.goods-menu__button-tumbler i {
   display: block;
 
   min-width: 20px;
@@ -271,7 +253,7 @@
   background-size: contain;
 }
 
-.left-menu__button-boxes i {
+.goods-menu__button-boxes i {
   display: block;
 
   min-width: 20px;
@@ -281,7 +263,7 @@
   background-size: contain;
 }
 
-.left-menu__button-termometres i {
+.goods-menu__button-termometres i {
   display: block;
 
   min-width: 20px;
@@ -291,7 +273,7 @@
   background-size: contain;
 }
 
-.left-menu__button-charge i {
+.goods-menu__button-charge i {
   display: block;
 
   min-width: 20px;
@@ -301,7 +283,7 @@
   background-size: contain;
 }
 
-.left-menu__button-fan i {
+.goods-menu__button-fan i {
   display: block;
 
   min-width: 20px;
@@ -311,7 +293,7 @@
   background-size: contain;
 }
 
-.left-menu__button-hydroengine i {
+.goods-menu__button-hydroengine i {
   display: block;
 
   min-width: 20px;
@@ -321,7 +303,7 @@
   background-size: contain;
 }
 
-.left-menu__button-other i {
+.goods-menu__button-other i {
   display: block;
 
   min-width: 20px;
