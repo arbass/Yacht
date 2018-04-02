@@ -14,18 +14,24 @@
 }
 
 .main-content__block-items {
-  .flex-c ();
   margin: 0 auto;
   min-width: 269px;
   min-height: 800px;
-  background-color: gray;
 }
 
 .main-content__block-items-wrapper {
   margin: 0 auto;
   min-width: 269px;
   min-height: 800px;
-  background-color: red;
+}
+
+.main-content__ads-title {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 67px;
+  margin-bottom: 16.5px;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 @media @desktop-widths {
@@ -40,7 +46,10 @@
 
   .main-content__block-items-wrapper {
     .flex ();
+    flex-wrap: wrap;
     align-items: flex-start;
-    min-width: 628px;
+    width: 615px;
   }
+
+
 }
