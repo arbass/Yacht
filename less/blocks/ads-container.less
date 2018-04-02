@@ -16,7 +16,7 @@
 
 .ads-container__item-title {
 	width: 180.71px;
-	height: 16.03;
+	height: 16.03px;
 	background-color: @bg-ad-title;
 }
 
@@ -99,5 +99,86 @@
 }
 
 @media @desktop-widths {
+	.ads-container {
+	.flex();
+	flex-wrap: wrap;
+	max-width: 874px;
+	min-height: 92.48px;
+}
+
+.ads-container__item {
+	width: 426.72px;
+	height: 145.34px;
+	margin-top: 10.5px;
+}
+
+.ads-container__item-img {
+	width: 143.52px;
+	height: 100%;
+}
+
+.ads-container__item-title {
+	width: 284.74px;
+	height: 25.65px;
+	background-color: @bg-ad-title;
+}
+
+.ads-container__item-title-left {
+	margin-left: 5px;
+	font-size: 14px;
+	line-height: 0.1;
+}
+
+.ads-container__item-title-right {
+	font-size: 12px;
+	line-height: 0.6;
+}
+
+.ads-container__item-content {
+	.flex-c ();
+	width: 100%;
+	height: 120.86px;
+}
+
+.ads-container__item-name {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.ads-container__item-description {
+    max-width: 252.5px;
+    max-height: 64.51px;
+    margin-left: 5px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.ads-container__item-price {
+    margin-bottom: 17px;
+    margin-top: auto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6E7A82;
+    text-align: left;
+    line-height: 0.1;
+}
+
+.ads-container__item-button {
+	bottom: -3px;
+	right: 7.8px;
+	margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #0083DB;
+    text-transform: uppercase;
+
+    &:hover {
+    	text-decoration: underline;
+    	cursor: pointer;
+    }
+}
 
 }
