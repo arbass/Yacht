@@ -8,6 +8,30 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body class="page--ads">
+
+    <div class="pop-up-selector pop-up--hide">
+
+     <div class="main-form">
+       <form action="telegram.php" method="POST">
+         <h4>Перезвоним Вам в течение 10 минут, и с радостью ответим на все Ваши вопросы</h4>
+
+         <div class="main-form__form-group">
+           <label for="">Ваше имя</label>
+           <input type="text" class="main-form__form-input" id="" name="user_name" placeholder="Например, Иван">
+         </div>
+
+         <div class="main-form__form-group">
+           <label for="">Ваш номер телефона</label>
+           <input type="text" class="main-form__form-input" id="" name="user_phone" placeholder="+7 (999) 999 99 99">
+         </div>
+
+         <button type="submit" class="button button--center button--margin-top">Заказать звонок</button>
+
+       </form>
+     </div>
+
+   </div>
+
    <header class="main-header">
 
      <nav class="left-menu left-menu--hide">
@@ -43,7 +67,7 @@
    </header>
    <main class="main-content">
    	  <h2 class="main-content__ads-title">Доска объявлений</h2>
-   	  <div class="button button--center">Подать объявление</div>
+   	  <div class="button button--center add-ad">Подать объявление</div>
    	  <div class="ads-container">
    	  	<article class="ads-container__item">
    	  		<img src="img/ad-image.png" class="ads-container__item-img">

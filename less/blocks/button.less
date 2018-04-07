@@ -1,12 +1,13 @@
 .button {
 	display: block;
-	width: 156.71px;
-	height: 28.03px;
-	font-size: 10px;
+	width: 196.78px;
+	height: 35.2px;
+	font-size: 12px;
 	font-weight: 400;
 	text-align: center;
 	color: @bg-lightgrey;
 	background-color: @button-color;
+		line-height: 2.7;
 
 	&:hover {
 		background-color: @button-color-hover;
@@ -17,6 +18,10 @@
 		margin: 0 auto;
 		margin-bottom: 20px;
 	}
+
+	&--margin-top {
+		margin-top: 7px;
+	}
 }
 
 @media @desktop-widths {
@@ -24,6 +29,6 @@
 		width: 196.78px;
 		height: 35.2px;
 		font-size: 12px;
-		line-height: 2.9;
+		line-height: 2.7;
 	}
 }
