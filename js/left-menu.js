@@ -4,7 +4,7 @@ var leftMenu = document.querySelector('.left-menu');
 //popup
 var popUp = document.querySelector('.pop-up-selector');
 var addAd = document.querySelector('.add-ad');
-var itemButton = document.querySelector('.item__button');
+var closeForm = document.querySelector('.main-form__close-form');
 
 //действия для бокового меню
 headerButton.addEventListener('click', function() {
@@ -19,3 +19,10 @@ addAd.addEventListener('click', function() {
   popUp.classList.remove('pop-up--hide');
   popUp.classList.add('pop-up');
 });
+
+closeForm.addEventListener('click', function() {
+  popUp.classList.remove('pop-up');
+  popUp.classList.add('pop-up--hide');
+  
+});
+
